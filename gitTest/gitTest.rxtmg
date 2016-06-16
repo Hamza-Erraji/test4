@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="6.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="gitTest"
+      id="49fbc54c-fb4d-4abe-b011-fd9a149134ed"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="gitTest"
+      id="49fbc54c-fb4d-4abe-b011-fd9a149134ed"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

@@ -1,0 +1,103 @@
+﻿<repository
+name="gitTestRepository"
+id="7c7b8e7a-afd4-469c-b582-b981ee179324"
+rxversion="6.0">
+	<codegen
+	classname="gitTestRepository"
+	namespace="gitTest"/>
+	<rootfolder
+	name="Root"
+	id="06315c6f-c6da-4d76-81f3-820e6d9a2a39"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="Explorer"
+		id="75711665-5072-4eef-9d47-a46c6a419bb9"
+		searchtimeout="30000ms"
+		capname="desktop"
+		refpath="/desktop[@processname='explorer']"
+		addcaps="desktop,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="UltraVncClient105Fr"
+			id="6bc13b7f-97f7-49c0-bcb7-a4ee9b33f4cb"
+			searchtimeout="30000ms"
+			capname="listitem"
+			refpath="/desktop[@processname='explorer']/container/list/listitem[@text='UltraVnc-Client-105-Fr']"
+			addcaps="listitem,nativeitem,checkable"
+			refimgid="ac596b79-bab6-4544-bce4-783efe3d7b0b">
+				/desktop[@processname='explorer']/?/?/list[@controlid='1']/listitem[@text='UltraVnc-Client-105-Fr']
+			</item>
+			<basepath>
+				/desktop[@processname='explorer']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACBElEQVQ4T4WSUWgScRzHHfQcLPZcL0EQFNtTQU9FRUHSXhaTRbBA
+ixBRiIhAMIz2JERgT0bI1ALZy6BCyY0RMtuZeqPi0hlUE0JcyZXV7S6/u9/vdnezC/rDB/7c///5
+8L//net/43TmG/6m2Wxie9kYC8I6Xjc7eLL0wbH50aqMWVHm+Y2ChiMz7xGPx+3IgduStZnmmUoX
+i1IX6GsOaA8FQqEQRFG0A/kNsNzXflhQ5Pi8yhy7Vbae/zPAstphRmd/WWJvE2jJMAL6GsnEg/17
+kcvl7EDtUwv9zS8MBWiY8pp+OlMst4C3F/dBvnsYubFhFItFcOCP8tGCAor+yiQTJL5aB8sZ0bhE
+kj0eD5LJ5Hbg95oFBUz5/p1plu+97FmnGLpShtvtRjgctk/Q2XgD7aeBGRjZPcSYIkHrFPB6vYN3
+UFit6os1hgJ03J3QJZrrFHB8hReiALW3wlBg+bMtmpBM/4gjsGfqGQq1ZWjfi8xOSf363ILl8aeM
+I0CU3y1ClRegdnWB0KXRm0sDHDpxFecnLiMWi6HRaNiBXWfnMHzusUM4euoSJqem4ff7EQwGEYlE
+kEqlUKlUIMuyEZhJreDghYcYO3MdJ8evwefzIRAI8DGj0Siy2SxKpRKq1SokSUK73YaiKIZsjnw+
+j0QigXQ6DZoLgsDvWK/XBzc6hsu1BRMfpP7Bj/TsAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="UltraVncClient105Fr"
+		id="204cb319-6b9b-411e-929a-8fe7e778023d"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='UltraVnc-Client-105-Fr']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="SystemItemNameDisplay"
+			id="4d4c1991-1572-43cb-b191-f9833aee0dc0"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='UltraVnc-Client-105-Fr']/element[@class='ShellTabWindowClass']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/listitem[@automationid='0']/text[@automationid='System.ItemNameDisplay']"
+			addcaps="text,uiautomation,uiautomationvalue"
+			refimgid="9abb9f44-fccd-4ba7-9e5f-ef9d8031c7b7">
+				/form[@title='UltraVnc-Client-105-Fr']//element[@instance='1']/container[@caption='ShellView']/?/?/listitem[@automationid='0']/text[@automationid='System.ItemNameDisplay']
+			</item>
+			<item
+			name="Fermer"
+			id="a62bc525-5a5d-4d66-91f2-9b404dcf2b9e"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='UltraVnc-Client-105-Fr']/titlebar/button[@accessiblename='Fermer']"
+			addcaps="button,accessible"
+			refimgid="cb74439b-faef-4083-b090-3863f4b504e2">
+				/form[@title='UltraVnc-Client-105-Fr']/?/?/button[@accessiblename='Fermer']
+			</item>
+			<basepath>
+				/form[@title='UltraVnc-Client-105-Fr']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJgSURBVDhPbdLdT1JxHMdxt/6Mrvov6jqtWdM1
+59gSRcpKXaXMIrWNpdVKarTWRa25ddN0ZS7EGWoRD4LIc6gIAnIEAUF3QnkeCH06/kDopN/te3XO
+630eaw4nE5LIk+GXhVRIgoRfjDg1grhPjD3vM8TcT0C7hrC7JkJ0dYCKLPcLCToaYOJUOiLBQUaG
+4sEOUrvv8XvzOTasg8inFSjmFyqbS8kRtAqpMq0OCWRnyAIFsn5zN9b0j5CJfUUhp2KO/UA+NYuQ
+tQ9lVp1/A6UI4DPcwLJ6AOGVYQJzCRmye5PYsghOCGz/HyjAo2uHXXkfwV8iAtP0GJI7HxAw9RwP
+JMMvKjiXnsKfYgoudQtsih4ELA8ITITfYX/rNTaNt48HEsGRCs7GJ1DIR+H4yYF1vgt+o4DAGCUG
+7XnMPEIvNhY735Zpafb9Tys4RX9EJq7HyvcmmOXXQOm7Cdx1PWQ+4z1s2+8ygZvsu4hRwxW8HxkF
+HXgD+2wjjNNcbCx0VGDIegs0TcOr7WAHaK+IhaNeMWwzl2CQNsOjaiUwaOIjsMQlAc/CdXZgZ32Q
+hUOOIVimL0I/2Qi3gkOgf5GDTW0TCbg1fHYg4hCysN/WD9NUHXSf67HOvItDSGkaybbN+7Cu5rED
+oWUBC/uMvTBJa6H7VAfXXAkebf3YKlyqNnYgYLvDwh5dJwlox88fC/g0V+BUtHjLtDTUUqfCrW2H
+U90Gp4rHLJ8ENOOX4ZjjMD8Vj1zVqWxl8FWvU8ntK9PquBXNp+3yhg6z7ILMKK1Nfhs9Z/jy6myX
+XdZwpnzKCVNT8xdABXLpcMcU7QAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>
